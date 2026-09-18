@@ -1,8 +1,8 @@
-# Rail Fence Cipher
+//Rail Fence Cipher
 
 text = input("Enter text: ").replace(" ", "").upper()
 
-# Encryption
+// Encryption
 rail1 = ""
 rail2 = ""
 
@@ -15,7 +15,8 @@ for i in range(len(text)):
 encrypted = rail1 + rail2
 print("Encrypted:", encrypted)
 
-# Decryption
+//Decryption
+
 mid = (len(encrypted) + 1) // 2
 
 rail1 = encrypted[:mid]
