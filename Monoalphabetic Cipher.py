@@ -1,13 +1,13 @@
-# Monoalphabetic Cipher
+//Monoalphabetic Cipher
 
 text = input("Enter message: ")
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 key =     "QWERTYUIOPASDFGHJKLZXCVBNM"
 
-# Encryption
-encrypted = ""
+//Encryption
 
+encrypted = ""
 for ch in text.upper():
     if ch in alphabet:
         encrypted += key[alphabet.index(ch)]
@@ -16,9 +16,9 @@ for ch in text.upper():
 
 print("Encrypted:", encrypted)
 
-# Decryption
-decrypted = ""
+// Decryption
 
+decrypted = ""
 for ch in encrypted:
     if ch in key:
         decrypted += alphabet[key.index(ch)]
