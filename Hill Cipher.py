@@ -1,12 +1,11 @@
-# Hill Cipher
+//Hill Cipher
 
-# Key matrix
 key = [[3, 3],
        [2, 5]]
 
 text = input("Enter 2-letter message: ").upper()
 
-# Convert letters to numbers
+
 a = ord(text[0]) - 65
 b = ord(text[1]) - 65
 
@@ -18,7 +17,7 @@ encrypted = chr(x + 65) + chr(y + 65)
 
 print("Encrypted:", encrypted)
 
-# Inverse key matrix
+// Inverse key matrix
 inv = [[15, 17],
        [20, 9]]
 
