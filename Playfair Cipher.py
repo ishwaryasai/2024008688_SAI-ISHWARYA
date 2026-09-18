@@ -1,11 +1,9 @@
-# Playfair Cipher
+//Playfair Cipher
 
 m = ["MONAR", "CHYBD", "EFGIK", "LPQST", "UVWXZ"]
 
 text = input("Enter a text: ").upper().replace(" ", "")
 text = text.replace("J", "I")
-
-# Add X if text has odd number of letters
 if len(text) % 2 != 0:
     text = text + "X"
 
@@ -15,9 +13,8 @@ def pos(ch):
             if m[i][j] == ch:
                 return i, j
 
+// encryption
 encrypted = ""
-
-# Encryption
 for i in range(0, len(text), 2):
 
     a = text[i]
@@ -42,12 +39,10 @@ for i in range(0, len(text), 2):
 
 print("Encrypted:", encrypted)
 
+// Decryption
 
-# Decryption
 decrypted = ""
-
 for i in range(0, len(encrypted), 2):
-
     a = encrypted[i]
     b = encrypted[i + 1]
 
