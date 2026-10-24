@@ -1,3 +1,4 @@
+#RealativelyPrimeNumbers
 import math
 
 a = int(input("Enter first number: "))
