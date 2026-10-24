@@ -1,7 +1,8 @@
+//CHINESEREMAINDERTHEOROM
 from math import prod
 
-a = [2, 3, 2]
-m = [3, 5, 7]
+a = [5, 3, 2]
+m = [3, 6, 8]
 
 M = prod(m)
 result = 0
