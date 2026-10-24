@@ -1,5 +1,6 @@
-a = 17
-b = 5
+#Division Algorithm
+a = 25
+b = 9
 
 q = a // b
 r = a % b
