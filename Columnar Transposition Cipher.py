@@ -1,11 +1,11 @@
-//Columnar Transposition Cipher
+#Columnar Transposition Cipher
 
 text = input("Enter text: ").replace(" ", "").upper()
 key = [3, 1, 4, 2]
 while len(text) % 4 != 0:
     text += "X"
 
-// Encryption
+# Encryption
 
 encrypted = ""
 for n in range(1, 5):
@@ -16,7 +16,7 @@ for n in range(1, 5):
 
 print("Encrypted:", encrypted)
 
-// Decryption
+# Decryption
 
 decrypted = [""] * len(text)
 k = 0
