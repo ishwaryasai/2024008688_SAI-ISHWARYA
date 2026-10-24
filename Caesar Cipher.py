@@ -1,9 +1,9 @@
-//Caesar Cipher
+#Caesar Cipher
 
 text = input("Enter message: ")
 key = int(input("Enter key: "))
 
-//Encryption
+#Encryption
 
 encrypted = ""
 for ch in text:
@@ -14,7 +14,7 @@ for ch in text:
 
 print("Encrypted:", encrypted)
 
-//Decryption
+#Decryption
 decrypted = ""
 
 for ch in encrypted:
