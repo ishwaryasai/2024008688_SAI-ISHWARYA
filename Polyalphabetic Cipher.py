@@ -1,9 +1,9 @@
-// Polyalphabetic Cipher
+# Polyalphabetic Cipher
 
 text = input("Enter message: ").upper()
 key = input("Enter key: ").upper()
 
-// Encryption
+# Encryption
 
 encrypted = ""
 for i in range(len(text)):
@@ -11,7 +11,7 @@ for i in range(len(text)):
 
 print("Encrypted:", encrypted)
 
-// Decryption
+# Decryption
 decrypted = ""
 
 for i in range(len(encrypted)):
