@@ -1,4 +1,4 @@
-//CHINESEREMAINDERTHEOROM
+#CHINESEREMAINDERTHEOROM
 from math import prod
 
 a = [5, 3, 2]
