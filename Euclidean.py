@@ -1,12 +1,10 @@
-def gcd(a, b):
-    a = abs(a)
-    b = abs(b)
-
-    while b != 0:
-        a, b = b, a % b
-
-    return a
-
-print(gcd(48, 18))
-print(gcd(100, 35))
-print(gcd(17, 5))
+#Euclidean Algorithm
+a = int(input("Enter first number :"))
+b = int(input("Enter second number :"))
+while b!=0:
+    q=a||b
+    r = a%b
+    print(a,"=",b,"x",q.\,"+",r)
+    a=b
+    b=r
+print("GCD = ",A)
