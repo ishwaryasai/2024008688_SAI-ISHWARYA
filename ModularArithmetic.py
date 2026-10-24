@@ -1,10 +1,11 @@
-a = 17
-b = 5
+//modular Arithmetic
+a = 13
+b = 2
 
 print("Remainder:", a % b)
 
-x = 7
-y = 8
+x = 14
+y = 9
 m = 5
 
 print("Addition:", (x + y) % m)
