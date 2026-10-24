@@ -1,4 +1,4 @@
-//Playfair Cipher
+#Playfair Cipher
 
 m = ["MONAR", "CHYBD", "EFGIK", "LPQST", "UVWXZ"]
 
