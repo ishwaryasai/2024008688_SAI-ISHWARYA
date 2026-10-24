@@ -1,3 +1,4 @@
+#Euler Totient Function
 import math
 
 n = int(input("Enter a number: "))
