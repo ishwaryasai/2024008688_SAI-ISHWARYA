@@ -1,3 +1,4 @@
+# Multiplicative inverse
 import math
 
 a = int(input("Enter a: "))
