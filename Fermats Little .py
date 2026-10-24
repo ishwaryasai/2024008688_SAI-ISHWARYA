@@ -1,3 +1,4 @@
+#Fermats Little Theorem
 a = int(input("Enter a: "))
 p = int(input("Enter prime number p: "))
 
